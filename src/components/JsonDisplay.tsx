@@ -1,6 +1,6 @@
 import IInputsItems from "../types/IInputsItems";
 
-const JsonDisplay = ({ data }: { data: IInputsItems }) => {
+const JsonDisplay = ({ data }: { data: any }) => {
   return (
     <pre>
       <code>{JSON.stringify(data, null, 2)}</code>
